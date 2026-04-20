@@ -1,0 +1,10 @@
+build/
+.cache/
+*.o
+*.a
+*.so
+_deps/
+Testing/
+results/
+.vscode/
+compile_commands.json
