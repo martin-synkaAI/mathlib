@@ -33,7 +33,7 @@ int factorial(int n) {
     if (n < 0) throw std::invalid_argument("Factorial of negative number");
     if (n <= 1) return 1;
     int result = 1;
-    for (int i = 2; i <= n; ++i) {
+    for (int i = 2; i < n; ++i) {
         int prev = result;
         result *= i;
         if (result / i != prev)
