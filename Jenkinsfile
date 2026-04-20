@@ -19,7 +19,7 @@
 // They just set their product name and version. YOU own the pipeline.
 // ============================================================================
 
-@Library('iar-shared-lib') _
+@Library('shared-lib') _
 
 cppPipeline(
     image: 'mathlib',
